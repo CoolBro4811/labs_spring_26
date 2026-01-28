@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1769624575.56524 "main.tex" "main.pdf" "main" 1769624575.88453 0
+["pdflatex"] 1769635442.64061 "main.tex" "main.pdf" "main" 1769635442.82549 0
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1767555874 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1767555874 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1767555874 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -66,9 +66,9 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1767589727 325717 59a65e600f662ceace641c3ea8b5d4af ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1767589727 2008231 6a6021b6f9206ba44e06b52eeb527ab0 ""
-  "main.aux" 1769624575.84879 266 f02cfea89f723848c34c3df96451e0fd "pdflatex"
-  "main.out" 1769624575.84879 78 37ad4d5d3b17d2621d661fdce67cb386 "pdflatex"
-  "main.tex" 1769624572.44275 405 697db46769fded651bba658bb3586aa6 ""
+  "main.aux" 1769635442.80569 266 f02cfea89f723848c34c3df96451e0fd "pdflatex"
+  "main.out" 1769635442.80593 78 37ad4d5d3b17d2621d661fdce67cb386 "pdflatex"
+  "main.tex" 1769635441.26623 414 37dca87fb6688ce0e2f9fe5034aed5c5 ""
   (generated)
   "main.aux"
   "main.log"
