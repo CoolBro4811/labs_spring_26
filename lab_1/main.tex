@@ -1,0 +1,131 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[letterpaper, total={6.5in,9in}]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{indentfirst}
+\usepackage[colorlinks=true,
+linkcolor=red]{hyperref}
+
+\title{Lab 01 -- Pressure}
+\author{Colin Lambert}
+\date{26/01/2026}
+
+\begin{document}
+\maketitle
+
+\section{Results}
+In this lab, we practiced using our phone's pressure sensors through phyphox to find relationships between elevation and air pressure. 
+In our first experiment we determined that there was a noticable difference in air pressure on the floor of the physics lab, vs holding the sensor above my head. \hyperref[fig:head-feet]{Figure \ref{fig:head-feet}} shows the data we took, and how the difference is quite noticable for such a small change in elevation. 
+
+We were able to find that the relationship between elevation and pressure can be modeled as a linear relationship, 
+
+\begin{equation}
+    P(h) = -19.272 \cdot h + 100067.30
+    \label{eq:pressure-elevation}
+\end{equation}
+
+Note, pressure can be expressed as:
+\begin{equation}
+    \label{eq:pressure}
+    P = P_0 + \rho\cdot h \cdot g    
+\end{equation}
+where $P_0$ is the atmospheric pressure above the "sample", $\rho$ is the density of the "sample", (in this case, air), and $g$ is the strength of gravity on the surface of earth. 
+\\
+
+Using \hyperref[eq:pressure-elevation]{Equation \ref{eq:pressure-elevation}}, and noting similarities from \hyperref[eq:pressure]{Equation \ref{eq:pressure}}, we can find the density of air:
+
+\[
+    \rho_{air} = 1.97 \pm 0.08 \ \left[\frac{kg}{m^3}\right]
+\]
+
+
+
+The graph of our data can be seen in \hyperref[fig:pressure-elevation]{ Figure \ref{fig:pressure-elevation}}
+\\
+
+Using this model, assuming the density of air is constant, we can find the point at which the air pressure is 0, or in other terms, the edge of the atmosphere. 
+
+\[
+    h_{atm} = \frac{-P_0}{\rho \cdot g} 
+\]
+
+\[
+    h_{atm} = -5192.4677 \  \left[m\right]
+\]
+
+There is one issue with this assumption of constant density, as density changes with temperature, which changes with altitude, along with pressure, as there is less air on top of the air as we go higher in the atmosphere (as air is a fluid, which is compressible).
+
+The actual graph can be seen in \hyperref[fig:atm-pressure-elevation]{Figure \ref{fig:atm-pressure-elevation}}
+This shows how the air pressure changes not linearly with altitude, which we assume in our earlier model. We can also see in \hyperref[fig:air-density-altitude]{Figure \ref{fig:air-density-altitude}}
+
+Comparing to the simplified Barometric formula, which assumed a constant temperature, our assumption reaches 10 \% error at about a height of 0.009 meters above the ground.
+
+We tried to find the average and stdev from all of our lab group's devices, and found these results:
+
+The average was found to be 999.41 $\left[hPa\right]$,
+and we found the stdev between the 4 members was 0.1223.
+
+We also worked on finding the accuracy and precision when comparing two devices, which we did by recording data over a period of time, and found:
+
+The Precision was: $0.009110422678$
+
+and the Accuracy was: $0.26$
+\\
+This can be seen in \hyperref[fig:comp]{Figure~\ref{fig:comp}}
+\\[2pt]
+The last thing we worked on was finding how we can manipulate the pressure that the sensor is reading, by placing it inside of a plastic bag, and applying pressure to the bag (as to decrease the size of the container). In \hyperref[fig:actual]{Figure~\ref{fig:actual}}, we can see the actual data graphed with the full vertical axis, and in \hyperref[fig:relative]{Figure~\ref{fig:relative}}, we can see the fine grain detail, and compare the two different pressures that were recorded.
+
+
+
+\begin{figure}
+\includegraphics[width=\linewidth]{./images/pressure-elevation.png}
+\caption{We took measurements at different elevations (on a stairwell), and recorded height and pressure at each location.}
+\label{fig:pressure-elevation}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\linewidth]{./images/head-feet.png}
+\caption{We tried to hold the sensor at two different elevations (ground \& above head), and compared the pressure.}
+\label{fig:head-feet}
+\end{figure}
+
+\begin{figure}
+    \begin{center}
+        \includegraphics[width=\linewidth]{images/atm_pressure-elevation.png}
+    \end{center}
+    \caption{Actual Air Pressure vs Elevation Graph (from literature)}\label{fig:atm-pressure-elevation}
+\end{figure}
+
+\begin{figure}
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{./images/Change-of-air-density-to-altitude-3843987156.png}
+    \end{center}
+    \caption{Actual Air Density vs Altitude (from literature)}\label{fig:air-density-altitude}
+\end{figure}
+
+\begin{figure}
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{images/comp.png}
+    \end{center}
+    \caption{Comparison of data recorded between two different sensors (at roughly the same position).}\label{fig:comp}
+\end{figure}
+
+\begin{figure}
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{images/actual.png}
+    \end{center}
+    \caption{Scaled to show full vertical axis, Sensor reading when creating a higher pressure with wait on plastic bag.}\label{fig:actual}
+\end{figure}
+
+\begin{figure}
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{images/relative.png}
+    \end{center}
+    \caption{Scaled to show fine grain detail, Sensor reading when creating a higher pressure with wait on plastic bag.}\label{fig:relative}
+\end{figure}
+
+
+
+
+\end{document}
