@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.4)  28 JAN 2026 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.4)  31 JAN 2026 00:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -342,48 +342,45 @@ Package hyperref Info: Link coloring ON on input line 14.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-
-
-LaTeX Warning: Hyper reference `fig:data-1' on page 1 undefined on input line 24.
-
-
-LaTeX Warning: Reference `fig:data-1' on page 1 undefined on input line 24.
-
-
-LaTeX Warning: Hyper reference `fig:data-2' on page 1 undefined on input line 25.
-
-
-LaTeX Warning: Reference `fig:data-2' on page 1 undefined on input line 25.
-
+<RulerTrial.png, id=12, 602.25pt x 372.39125pt>
+File: RulerTrial.png Graphic file (type png)
+<use RulerTrial.png>
+Package pdftex.def Info: RulerTrial.png  used on input line 33.
+(pdftex.def)             Requested size: 469.75499pt x 290.47536pt.
+<figure2a.png, id=14, 895.09406pt x 551.81157pt>
+File: figure2a.png Graphic file (type png)
+<use figure2a.png>
+Package pdftex.def Info: figure2a.png  used on input line 42.
+(pdftex.def)             Requested size: 352.31624pt x 217.20117pt.
 
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+[2 <./RulerTrial.png>]
+
+[3 <./figure2a.png>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 37AD4D5D3B17D2621D661FDCE67CB386;78.
  ) 
 Here is how much of TeX's memory you used:
- 9778 strings out of 475171
- 149271 string characters out of 5767096
- 555266 words of memory out of 5000000
- 32666 multiletter control sequences out of 15000+600000
- 564823 words of font info for 57 fonts, out of 8000000 for 9000
+ 9798 strings out of 475171
+ 149629 string characters out of 5767096
+ 560127 words of memory out of 5000000
+ 32682 multiletter control sequences out of 15000+600000
+ 564516 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,6n,79p,419b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,569b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (1 page, 76776 bytes).
+Output written on main.pdf (3 pages, 120864 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 19 words of extra memory for PDF output out of 10000 (max. 10000000)
 

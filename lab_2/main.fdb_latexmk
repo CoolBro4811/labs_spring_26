@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1769642962.35535 "main.tex" "main.pdf" "main" 1769642962.57689 0
+["pdflatex"] 1769847840.32746 "main.tex" "main.pdf" "main" 1769847840.73398 0
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1767555874 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1767555874 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1767555874 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -77,9 +77,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1767589727 325717 59a65e600f662ceace641c3ea8b5d4af ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1767589727 2008231 6a6021b6f9206ba44e06b52eeb527ab0 ""
-  "main.aux" 1769642962.55372 318 4d30948ce74b5f52d015e80aff1d00a1 "pdflatex"
-  "main.out" 1769642962.55544 78 37ad4d5d3b17d2621d661fdce67cb386 "pdflatex"
-  "main.tex" 1769642962.32948 1585 dcad8bba46756220853881c4d26361a0 ""
+  "RulerTrial.png" 1769846184.9868 16425 d2618aa05410b19f5e52bb9ff4f5e381 ""
+  "figure2a.png" 1769671032.51736 46386 a94730ff85bc13e164d511c4128e8334 ""
+  "main.aux" 1769847840.69003 2298 46aee03afb835b3daaecbf87814ec670 "pdflatex"
+  "main.out" 1769847840.69103 78 37ad4d5d3b17d2621d661fdce67cb386 "pdflatex"
+  "main.tex" 1769847839.9937 3178 fb01f54bb1021077fd158340c6be09cd ""
   (generated)
   "main.aux"
   "main.log"

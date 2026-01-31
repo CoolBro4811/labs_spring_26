@@ -148,7 +148,16 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./RulerTrial.png
+INPUT ./RulerTrial.png
+INPUT ./RulerTrial.png
+INPUT ./RulerTrial.png
+INPUT ./RulerTrial.png
+INPUT ./figure2a.png
+INPUT ./figure2a.png
+INPUT ./figure2a.png
+INPUT ./figure2a.png
+INPUT ./figure2a.png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT main.aux
 INPUT ./main.out
