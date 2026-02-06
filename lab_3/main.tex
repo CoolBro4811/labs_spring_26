@@ -24,4 +24,29 @@ F = A\cdot e^{\left(-\frac{b}{2\cdot m}\right)} \cdot cos(\omega \cdot x)
 \end{equation}
 
 
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.75\linewidth]{lab5dampingTrial3.png}
+    \caption{A scatterplot of the data collected during trial 3 (blue). Time (in seconds) is plotted against the force reading from a wireless force sensor secured to the end of a pendulum. A curve fit is graphed over the data, represented by the following equation: $F=0.053e^{(0.479x)} \cdot   \cos (10.46x+17.44)-0.208$ (red). This is included to give a visual representation of the damping effect on the pendulum. It illustrates that, over time, the amplitude of the pendulum's swings decreases.}
+    \label{fig:dampingPlot}
+\end{figure}
+
+\begin{table}[b]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+        Trial & Amplitude (N) & Angular Freq. (rad/s) & Period (s) & Damping Constant (kg/s)\\
+       \hline
+        1 & $0.104 \pm 0.003$ & $10.43 \pm 0.01$ & $0.602 \pm 0.001$ & $0.050 \pm 0.002$ \\
+        \hline
+        2 & $0.097 \pm 0.003$ & $10.38 \pm 0.02$ & $0.605 \pm 0.001$ & $0.085 \pm 0.004$ \\
+        \hline
+        3 & $0.053 \pm 0.002$ & $10.46 \pm 0.02$ & $0.601 \pm 0.001$ & $0.087 \pm 0.004$ \\
+        \hline
+    \end{tabular}
+    \caption{A summary of the results from our trials. Our values were found by applying a curve fit to our data using the following equation:$F=A\cdot e^{(-\frac{b}{2m}x)}cos(\omega x)$. We were successfully able to alter the damping constant by changing the friction at the pivot point of the pendulum. The angular frequency and period did not differ significantly between trials. We found that increasing the damping force increased the rate at which the amplitude of the pendulum swings decreased.}
+    \label{tab:trialSummary}
+\end{table}
+
 \end{document}
